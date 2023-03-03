@@ -1,6 +1,7 @@
 //códigos a serem reescritos
 
 // a)
+/*
 if(nome === "José"){
 	console.log("Oi, Zé!")
 } else {
@@ -14,3 +15,9 @@ if(idade >= 18){
 } else {
 	console.log("Ainda não pode tirar carteira de motorista!")
 }
+*/
+
+const nome = "jose"
+const idade = 18
+
+nome === 'jose' && idade >= 18 ? console.log("Pode tirar carteira de motorista!") : console.log("Ainda não pode tirar carteira de motorista!")
